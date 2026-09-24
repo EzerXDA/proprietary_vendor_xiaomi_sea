@@ -25,6 +25,16 @@
         <library name="spatializer" path="libspatializer.so"/>
 	<!--Audio-add Misound -->
         <library name="misoundfx" path="libmisoundfx_aidl.so"/>
+		<!--DOLBY DAP-->
+        <library name="dap" path="libswdap.so"/>
+        <library name="dvl" path="libdlbvol.so"/>
+        <!--DOLBY END-->
+        <!--DOLBY GAME-->
+        <library name="gamedap" path="libswgamedap.so"/>
+        <!--DOLBY END-->
+        <!--DOLBY VQE-->
+        <library name="vqe" path="libswvqe.so"/>
+        <!--DOLBY END-->       
     </libraries>
 
     <!-- list of effects to load.
